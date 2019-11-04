@@ -23,7 +23,7 @@
 <p>Sistema operacional baseado em Unix/Linux</b></p>
 <p>MySQL versão 5.7 ou superior</b></p>
 <p>PHP 7.2 ou superior</b></p>
-<p>Gerenciador de Dependecias Composer</b></p>
+<p>Gerenciador de Dependecias Composer e NPM</b></p>
 <p>Git</b></p>
 
 ## Utilização
@@ -42,9 +42,12 @@ $ git clone https://github.com/HadoukenMS/supero_ti.git supero_app
 ```
 $ cd supero_app
 ```
-3. Instalar as dependências com composer
+3. Instalar as dependências com composer e NPM
 ```
 $ composer install
+```
+```
+$ npm install
 ```
 4. Configurar o arquivo ```.env``` com os dados de acesso ao banco de dados.
 5. Rodar o cmd ``` $ php artisan migrate ``` para criar as tabelas e registros no banco de dados.
